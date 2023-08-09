@@ -1,0 +1,10 @@
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+li>span {
+    width: 15%;
+    margin: 5px;
+    flex-direction: row;
+}
