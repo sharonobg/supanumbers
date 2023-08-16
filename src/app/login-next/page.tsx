@@ -12,14 +12,14 @@ export async function handleSubmit(event:React.FormEvent<HTMLFormElement>){
     //await supabase.auth.signIn({email});
     //const email:string = event.target.email as HtmlInputElement.value;
 
-    const { data, error } = await supabase.auth.signUp({
+    const { data } = await supabase.auth.signUp({
       email: email,
       password: password
       ,
     })
 
     async function signInWithEmail() {
-        const { data, error } = await supabase.auth.signInWithOtp({
+        const { data } = await supabase.auth.signInWithOtp({
           email: 'email',
           options: {
             emailRedirectTo: 'http://localhost:3001/login-page?email={email}',
