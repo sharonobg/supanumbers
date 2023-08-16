@@ -1,12 +1,10 @@
 import supabase from '@/app/utils/supabase';
-
+import '@/app/globals.css';
 export default async function Home() {
   return(
-    <>
-    <h2><a href="/login-page">Login Page</a></h2>
-    <h2><a href="/categories">Categories</a></h2>
-    <h2><a href="/transactions">Transactions</a></h2>
-    </>
+   
+    <h1>Apply Mindfulness to your Spending Plan</h1>
+    
   )
   //const { data: categories } = await supabase.from('categories').select()
   //return (
