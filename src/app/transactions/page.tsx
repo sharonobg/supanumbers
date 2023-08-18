@@ -17,7 +17,7 @@ export default async function getData() {
         throw new Error('transactions error');
       }
 
-    console.log('transactions data',{transactions});
+    //console.log('transactions data',{transactions});
     
     
     return (

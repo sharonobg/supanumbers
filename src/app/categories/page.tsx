@@ -9,7 +9,7 @@ export default async function getCategories() {
       if (error){
         throw new Error('categories error');
       }
-    console.log('Categories data',{categories});
+    //console.log('Categories data',{categories});
     return (
       <>
     <pre>{JSON.stringify(categories, null, 2)}</pre>
