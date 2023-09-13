@@ -6,7 +6,7 @@ export default function Nav(){
         <nav>
             <ul className="flex">
             <Link href='/'>
-                <li className="hover:cursor-pointer hover:text-blue-600">Home</li>
+                <li className="hover:cursor-pointer hover:text-blue-600">Home No-Auth-Helpers</li>
                 </Link>
                 <Link href='/login-page'>
                 <li className="hover:cursor-pointer hover:text-blue-600">Login</li>
